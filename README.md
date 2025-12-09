@@ -18,11 +18,11 @@ The system supports:
 
 The solution follows a simple Clean Architecture structure:
 Solution
-??? Domain
-??? Application
-??? Infrastructure
-??? UserAndOrderTask.APIs (Web API)
-??? ProjectTest (xUnit Tests)
+--- Domain
+--- Application
+--- Infrastructure
+--- UserAndOrderTask.APIs (Web API)
+--- ProjectTest (xUnit Tests)
 
 
 
@@ -50,11 +50,11 @@ To use the InMemory database in tests, make sure this package is installed:
 	Microsoft.EntityFrameworkCore.InMemory
 
 ==================================================================================
-?? Important Notes About Audit Logging
+--- Important Notes About Audit Logging
 
 In this sample project, audit logging is simplified.
 
-?? In real-world applications:
+--- In real-world applications:
 
 Audit fields such as:
 
@@ -70,7 +70,7 @@ are not logged manually.
 
 Instead, they are recorded automatically using:
 
-?? IHttpContextAccessor
+--- IHttpContextAccessor
 
 This allows us to access the:
 
@@ -112,7 +112,7 @@ BCrypt.Net-Next
 
 Make sure all layers build successfully after the restore.
 
-?? Running the Project
+---Running the Project
 
 Open the solution
 
@@ -130,7 +130,7 @@ POST /api/orders
 
 GET /api/orders/{id}
 
-?? Future Improvements
+--- Future Improvements
 
 Integrate ASP.NET Core Identity for secure authentication
 
@@ -144,7 +144,7 @@ Add FluentValidation instead of DataAnnotations
 
 Add integration tests
 
-?? Author
+--- Author
 
 This project was created as a backend coding assignment demonstration using best practices in clean architecture, modularity, and testability.
 
