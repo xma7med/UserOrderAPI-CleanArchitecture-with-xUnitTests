@@ -56,6 +56,7 @@ To use the InMemory database in tests, make sure this package is installed:
 	Microsoft.EntityFrameworkCore.InMemory
 
 ==================================================================================
+
 --- Important Notes About Audit Logging
 
 In this sample project, audit logging is simplified.
