@@ -17,11 +17,17 @@ The system supports:
 ## **Architecture Overview**
 
 The solution follows a simple Clean Architecture structure:
+
 Solution
+
 --- Domain
+
 --- Application
+
 --- Infrastructure
+
 --- UserAndOrderTask.APIs (Web API)
+
 --- ProjectTest (xUnit Tests)
 
 
