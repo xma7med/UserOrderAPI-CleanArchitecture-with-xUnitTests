@@ -2,6 +2,8 @@
 
 -----> To be changed Audit service implementation to Infrastructure Layer 
 
+-----> Enhancement we may add Application Abstraction Layer for only Contracts 
+
 This project is a lightweight sample demonstrating how to implement a clean, modular, and testable backend service using **ASP.NET Core 8**, **EF Core**, and **Clean Architecture** principles.
 
 The system supports:
